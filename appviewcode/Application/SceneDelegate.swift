@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         safeWindow.frame = UIScreen.main.bounds
         
-        let navViewController = UINavigationController(rootViewController: ViewController())
+        let navViewController = UINavigationController(rootViewController: IntroViewController())
         safeWindow.rootViewController = navViewController
         safeWindow.makeKeyAndVisible()
         
